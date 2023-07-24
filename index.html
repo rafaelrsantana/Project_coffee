@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/all.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <div class="center">
+            <header style="border-bottom: 1px solid wheat">
+                <div class="container">
+                    <div class="logo" style="color: wheat">
+                        <h1>Bem vindo Grilu!</h1>
+                        <img src="/imagens/grilu.png">
+                    </div>
+                    <nav class="desktop">
+                        <ul>
+                            <li><a style="color: wheat " href="index.html">Home</a></li>
+                            <li><a href="lista.html">Coffees</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="mobile">
+                        <ul>
+                            <li><a style="color: wheat" href="index.html">Home</a></li>
+                            <li><a href="lista.html">Coffes</a></li>
+                        </ul>
+                    </nav>
+                    <div class="clear"></div>
+                </div>
+            </header>
+        </div>
+        <section class="cafes-destaque">
+            <div class="line-titulo">
+                <h2>Os melhores Cafés do mundo!</h2>
+            </div>
+            <div class="container">
+                <div class="vitrine-destaque">
+                    <div style="background-image:url('imagens/antigua.png');" class="cafe-img"></div>
+                    <div class="info-cafe">
+                        <h2>Antigua</h2>
+                        <p>Feito na Guatemala</p>
+                        <a class="btn1" href="antigua.html">Mais Detalhes</a>
+                    </div>
+                </div>
+                <div class="vitrine-destaque">
+                    <div style="background-image:url('imagens/mocha_java.jpg');" class="cafe-img"></div>
+                    <div class="info-cafe">
+                        <h2>Mocha Java Coffee</h2>
+                        <p>Feito na Indonésia</p>
+                        <a class="btn1" href="mocha.html">Mais Detalhes</a>
+                    </div>
+                </div>
+                <div class="vitrine-destaque">
+                    <div style="background-image:url('imagens/los_planes.jpg');" class="cafe-img"></div>
+                    <div class="info-cafe">
+                        <h2>Los Planes</h2>
+                        <p>Feito no Salvador</p>
+                        <a class="btn1" href="los.html">Mais Detalhes</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="line-titulo">
+                    <div class="ln1"></div>
+                    <p>E muito mais! Clique<span><a href="lista.html">Aqui</a></span> para ver!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contato" class="contato">
+            <div class="line-titulo">
+                <div class="ln1"></div>
+                <h2>Envie sua opinião!</h2>
+            </div>
+            <form action="">
+                <div class="input-wraper w100">
+                    <input placeholder="Nome*" type="text" required>
+                </div>
+                <div class="input-wraper w50">
+                    <input placeholder="E-mail*" type="text" required>
+                </div>
+                <div class="input-wraper w50">
+                    <input placeholder="Telefone*" type="text" required>
+                </div>
+                <div class="input-wraper w100">
+                    <textarea placeholder="Mensagem*" required></textarea>
+                </div>
+                <div class="input-wraper w100">
+                    <input class="btn1" type="submit" value="Enviar">
+                </div>
+                <div class="clear"></div>
+            </form>
+        </section>
+        <footer>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a style="color: wheat " href="index.html">Home</a></li>
+                        <li><a href="lista.html">Coffees</a></li>
+                    </ul>
+                </nav>
+                <p>Todos os direitos reservados</p>
+                <div class="clear"></div>
+            </div>
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/menuScroll.js"></script>
+    </body>
+</html>

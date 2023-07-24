@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #242424;
+    
+}
+
+.center {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    padding: 20px 2% 35px 2%;
+    height: 130px;
+}
+
+header .logo {
+    margin-top: 35px;
+    display: flex;
+    float: left;
+
+}
+
+header .logo h2 {
+    padding: 0 30px;
+}
+
+header .logo img {
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 20%;
+    
+}
+
+header .logo i {
+    font-size: 40px;
+    
+}
+
+header nav.desktop {
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+nav.mobile {
+    margin-top: 40px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url(../imagens/icon_menu.png);
+    display: none;
+}
+
+nav.mobile ul {
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 130px;
+    border-bottom: 4px solid #EB2D2D;
+    z-index: 999;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+}
+
+nav.mobile li {
+    font-size: 23px;
+    padding: 20px 0px;
+    
+}
+
+nav.mobile li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav.desktop ul {
+    list-style-type: none;
+}
+
+header nav.desktop ul li {
+    float: left;
+    font-size: 23px;
+    padding: 0 30px;
+    
+}
+
+header nav.desktop a {
+    color: #6c461f;
+    text-decoration: none;
+    
+}
+
+
+section.cafes-destaque    {
+    padding: 90px 2%;
+}
+
+section.cafes-destaque .container {
+    padding: 40px 0;
+
+}
+
+
+.line-titulo {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.line-titulo h2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 27px;
+    padding: 0 20px;
+    color: wheat;
+
+}
+
+.line-titulo p {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    padding: 60px 20px;
+    color: wheat;
+
+}
+
+.line-titulo a {
+    
+    color: white;
+}
+
+.vitrine-destaque {
+    float: left;
+    width: 33.3%;
+    margin-top: 20px;
+}
+
+.vitrine-destaque .cafe-img {
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 100%;
+    border: 8px solid #242424;
+    border-radius: 40px;
+}
+
+.vitrine-destaque h2 {
+    padding-left: 8px;
+    color: wheat;
+    
+    font-size: 20px;
+}
+
+.vitrine-destaque p {
+    padding-top: 8px;
+    padding-left: 8px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.btn1 {
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 8px;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    background-color: #6c461f;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+.cafes-destaque a {
+    margin-left: 8px; 
+    margin-top: 10px;
+}
+
+.arrows {
+    float: left;
+}
+
+section.contato {
+    padding: 10px 2% 0 2%;
+}
+
+section.contato form {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+section.contato .input-wraper {
+    float: left;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+section.contato input[type=text] {
+    width: 100%;
+    border: 1px solid#ccc;
+    height: 60px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contato textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 140px;   
+    padding: 8px; 
+    resize: none;
+    font-size: 16px;
+}
+
+section.contato form .input-wraper:nth-of-type(5) {
+    text-align: center;
+}
+
+section.contato input[type=submit] {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    cursor: pointer;
+
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px 2%;
+    background: #252525;
+}
+
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    float: left;
+    padding: 0 35px;
+    font-size: 19px;
+}
+
+footer nav ul a {
+    color: #6c461f;
+    text-decoration: none;
+}
+
+footer p {
+    float: right;
+    color: white;
+    font-size: 19px;
+}
+
+section.lista {
+    padding: 90px 0;
+    min-height: 90%;
+}
+
+
+.info-coffee {
+    display: inline-block;
+    width: 60%;
+}
+
+.foto-destaque {
+    width: 100%;
+    padding-top: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.descricao-coffee {
+    vertical-align: top;
+    display: inline-block;
+    padding: 60px 20px;
+    text-align: left;
+}
+
+.descricao-coffee p {
+    font-size: 20px;
+    max-width: 360px;
+    margin-top: 25px;
+    color: white;
+}
+
+
+.descricao-coffee a {
+    margin-top: 25px;
+}
+
+
+section.single .line-titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-galeria {
+    overflow: hidden;
+    width: 100%;
+    padding: 15px;
+   
+}
+
+
+.mini-img-wraper {
+
+    float: left;
+    padding: 9px;
+    
+}
+
+.mini-img {
+    width: 100%;
+    padding-top: 70%;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-galeria-parent {
+    width: 100%;
+    padding: 36px;
+    position: relative;
+}
+
+.arrow-left-nav {
+    cursor: pointer;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    background-image: url(../imagens/arrow-left.png);
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.arrow-right-nav {
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    background-image: url(../imagens/arrow-right.png);
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    
+
+    .descricao-coffee {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .descricao-coffee a {
+        display: inline-block;
+    }
+
+    .descricao-coffee p {
+        max-width: none;
+    }
+
+   .info-coffee {
+    width: 100%;
+   }
+}
+@media screen and (max-width: 768px) {
+
+    footer nav {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        float: none;
+    }
+
+    .w50 {
+        width: 100%;
+    }
+
+    section.servicos-descricao {
+        flex-direction: column;
+    }
+
+
+    nav.desktop {
+        display: none;
+    }
+
+    nav.mobile {
+        display: block;
+    }
+    
+    .info-coffee {
+        width: 100%;
+    }
+
+    .descricao-coffee {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .descricao-coffee a {
+        display: inline-block;
+    }
+
+    .descricao-coffee p {
+        max-width: none;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    
+
+    .cafes-destaque .line-titulo h2 {
+        font-size: 23px;
+
+    }
+
+    section.cafes-destaque .container {
+        max-width: 1000px;
+        padding: 40px 0;
+        text-align: center;
+    
+    }
+    
+    .vitrine-destaque {
+        float: none;
+        width: 80%;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .vitrine-destaque a {
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .vitrine-destaque {
+        width: 100%;
+    }
+}
